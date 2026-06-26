@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Cajui",
+    "slug": "cajui",
+    "scheme": "cajui",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permita que o Cajui use a câmera para ler o QR Code do cupom fiscal."
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.cajui.app"
+    },
+    "android": {
+      "package": "br.com.cajui.app"
+    }
+  }
+}
